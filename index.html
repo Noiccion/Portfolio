@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Nicolas Lherm</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#a-propos">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="lama">
+            <section id="accueil">
+                <h1>Bienvenue sur mon Portfolio</h1>
+                <p>psum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                <a href="doc/CV.pdf#toolbar+0"
+                target="_blank"><button>Consulter</button></a>
+                <img src="/doc/images/fond1.png" alt="lama" >
+            </section>
+        </div>
+
+        <section id="services">
+            <h2>Parcours scolaire</h2>
+            <link
+                href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+                rel='stylesheet' type='text/css'>
+
+            <!-- The Timeline -->
+
+            <ul class="timeline">
+
+               
+
+                <!-- Item 2 -->
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag">Lycée Jean Jaurès</span>
+                            <span class="time-wrapper"><span class="time">2021 - 2023</span></span>
+                        </div>
+                        <div class="desc">En cours, BTS Services Informatiques aux Organisations,
+                            Option Solution d’Infrastructure, Système et Réseau </div>
+                    </div>
+                </li>
+
+                <!-- Item 3 -->
+                <li>
+                    <div class="direction-r">
+                        <div class="flag-wrapper">
+                            <span class="flag">Lycée Jean Monet</span>
+                            <span class="time-wrapper"><span class="time">2020 - 2021</span></span>
+                        </div>
+                        <div class="desc">BAC, Systéme Numérique, Option Réseau Informatique
+                            et Systéme Communiquants </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="direction-l">
+                        <div class="flag-wrapper">
+                            <span class="flag">Lycée Jean Monet</span>
+                            <span class="time-wrapper"><span class="time">2019 - 2020 </span></span>
+                        </div>
+                        <div class="desc">BEP, Systéme Numérique, Option Réseau Informatique
+                            et Systéme Communiquants</div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="lama">
+                <section id="documents">
+                    <h2>Documents PDF</h2>
+                    <ul
+                        style="display: flex; list-style: none; justify-content: space-around; flex-wrap: wrap; position: relative; gap: 20px;">
+                        <li style="width: 30%;">
+                            <embed src="doc/Doc_DNS_maitre_esclave-delegation.pdf#toolbar=0" type="application/pdf"
+                                width="100%" height="600px" />
+                            <a href="doc/Doc_DNS_maitre_esclave-delegation.pdf#toolbar=0"
+                                target="_blank"><button>Consulter</button></a>
+                        </li>
+                        <li style="width: 30%;">
+                            <embed src="doc/Doc_journalisation.pdf#toolbar=0" type="application/pdf" width="100%"
+                                height="600px" />
+                            <a href="doc/Doc_journalisation.pdf#toolbar=0"
+                                target="_blank"><button>Consulter</button></a>
+                        </li>
+                        <li style="width: 30%;">
+                            <embed src="doc/Doc_NAT.PAT.pdf#toolbar=0" type="application/pdf" width="100%"
+                                height="600px" />
+                            <a href="doc/Doc_NAT.PAT.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
+                        </li>
+                        <li style="width: 30%;">
+                            <embed src="doc/Doc_pfsense.pdf#toolbar=0" type="application/pdf" width="100%"
+                                height="600px" />
+                            <a href="doc/Doc_pfsense.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
+                        </li>
+                        <li style="width: 30%;">
+                            <embed src="doc/Intrusion_machine_firstblood.pdf#toolbar=0" type="application/pdf"
+                                width="100%" height="600px" />
+                            <a href="doc/Intrusion_machine_firstblood.pdf#toolbar=0"
+                                target="_blank"><button>Consulter</button></a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+        </section>
+        <div class="lama">
+            <section id="a-propos">
+                <h2>Veille technologique</h2>
+                <p>Pour effectuer ma veille technologique, je consulte de manière journalière tous les forums, sites d’actualités technologiques, de droits et de cybersécurité.
+
+                    Pour ce faire, j’utilise différentes sources telles que : OCDE (Organisation de Coopération et de Développement Économiques), ec.europa.eu (Commission européenne), CNIL (Commission Nationale de l’Informatique et des Libertés), ANSSI (Agence Nationale de la Sécurité des Systèmes d’Information).
+                    
+                    Mais également, j’utilise aussi CVE (Common Vulnerabilities and Exposures) qui permet de recenser les différentes failles de sécurités sur les systèmes et des outils tels que les flux RSS, les newsletters, les réseaux sociaux (CERT-FR, COMCYBER) et les lives conférences de cybersécurité.
+                    
+                    Ma veille technologique s’effectue sur la « Cybersécurité »</p>
+            </section>
+        </div>
+        <div class="lama">
+            <section id="contact">
+                <h2>Contactez-nous</h2>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons"> 
+                        <li><a class="linkedin" href="mailto:exemple@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+
+        <div class="container" style="display: flex; justify-content: center;">
+            <div class="row" style="width: 70%;">
+                <div>
+                    <p class="copyright-text">Copyright &copy; 2023
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
