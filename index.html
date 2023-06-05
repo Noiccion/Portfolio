@@ -15,26 +15,29 @@
         <nav>
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#a-propos">À Propos</a></li>
+                <li><a href="#services">Parcours</a></li>
+                <li><a href="#a-propos">Veille</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="lama">
-            <section id="accueil">
-                <h1>Bienvenue sur mon Portfolio</h1>
-                <p>psum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                <a href="doc/CV.pdf#toolbar+0"
-                target="_blank"><button>Consulter</button></a>
-                <img src="/doc/images/fond1.png" alt="lama" >
-            </section>
-        </div>
+        <section id="accueil">
+            <h1>Bienvenue sur mon Portfolio</h1>
+            <hr>
+            <p>Bienvenue sur mon portfolio ! J'ai 21 ans et je suis actuellement en BTS SIO option SISR, pour
+                devenir administrateur système et réseaux. <br> Mes différents stages m'ont permis d'améliorer mes
+                connaissances théoriques et pratiques, ce qui m'a encore plus donné l'envie d'apprendre et de
+                découvrir le monde de l'informatique. Je m'intéresse aussi à la cybersécurité, et je trouve ce
+                domaine passionnant.</p>
+            <a href="doc/CV.pdf#toolbar+0" target="_blank" style="display: flex; justify-content: center;"><button
+                    class="custom-btn btn-12"><span>Voir CV</span><span>Consulter</span></button></a>
+        </section>
 
         <section id="services">
             <h2>Parcours scolaire</h2>
+            <hr>
             <link
                 href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
                 rel='stylesheet' type='text/css'>
@@ -43,7 +46,7 @@
 
             <ul class="timeline">
 
-               
+
 
                 <!-- Item 2 -->
                 <li>
@@ -61,7 +64,7 @@
                 <li>
                     <div class="direction-r">
                         <div class="flag-wrapper">
-                            <span class="flag">Lycée Jean Monet</span>
+                            <span class="flag">Lycée Jean Monnet</span>
                             <span class="time-wrapper"><span class="time">2020 - 2021</span></span>
                         </div>
                         <div class="desc">BAC, Systéme Numérique, Option Réseau Informatique
@@ -72,7 +75,7 @@
                 <li>
                     <div class="direction-l">
                         <div class="flag-wrapper">
-                            <span class="flag">Lycée Jean Monet</span>
+                            <span class="flag">Lycée Jean Monnet</span>
                             <span class="time-wrapper"><span class="time">2019 - 2020 </span></span>
                         </div>
                         <div class="desc">BEP, Systéme Numérique, Option Réseau Informatique
@@ -81,67 +84,83 @@
                 </li>
             </ul>
 
-            <div class="lama">
-                <section id="documents">
-                    <h2>Documents PDF</h2>
-                    <ul
-                        style="display: flex; list-style: none; justify-content: space-around; flex-wrap: wrap; position: relative; gap: 20px;">
-                        <li style="width: 30%;">
-                            <embed src="doc/Doc_DNS_maitre_esclave-delegation.pdf#toolbar=0" type="application/pdf"
-                                width="100%" height="600px" />
-                            <a href="doc/Doc_DNS_maitre_esclave-delegation.pdf#toolbar=0"
-                                target="_blank"><button>Consulter</button></a>
-                        </li>
-                        <li style="width: 30%;">
-                            <embed src="doc/Doc_journalisation.pdf#toolbar=0" type="application/pdf" width="100%"
-                                height="600px" />
-                            <a href="doc/Doc_journalisation.pdf#toolbar=0"
-                                target="_blank"><button>Consulter</button></a>
-                        </li>
-                        <li style="width: 30%;">
-                            <embed src="doc/Doc_NAT.PAT.pdf#toolbar=0" type="application/pdf" width="100%"
-                                height="600px" />
-                            <a href="doc/Doc_NAT.PAT.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
-                        </li>
-                        <li style="width: 30%;">
-                            <embed src="doc/Doc_pfsense.pdf#toolbar=0" type="application/pdf" width="100%"
-                                height="600px" />
-                            <a href="doc/Doc_pfsense.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
-                        </li>
-                        <li style="width: 30%;">
-                            <embed src="doc/Intrusion_machine_firstblood.pdf#toolbar=0" type="application/pdf"
-                                width="100%" height="600px" />
-                            <a href="doc/Intrusion_machine_firstblood.pdf#toolbar=0"
-                                target="_blank"><button>Consulter</button></a>
-                        </li>
-                    </ul>
-                </section>
-            </div>
+            <section id="documents">
+                <h2>Documents PDF</h2>
+                <hr>
+                <ul
+                    style="display: flex; list-style: none; justify-content: space-around; flex-wrap: wrap; position: relative; gap: 20px;">
+                    <li style="width: 30%;">
+                        <embed src="doc/Doc_DNS_maitre_esclave-delegation.pdf#toolbar=0" type="application/pdf"
+                            width="100%" height="600px" />
+                        <a href="doc/Doc_DNS_maitre_esclave-delegation.pdf#toolbar=0"
+                            target="_blank"><button>Consulter</button></a>
+                    </li>
+                    <li style="width: 30%;">
+                        <embed src="doc/Doc_journalisation.pdf#toolbar=0" type="application/pdf" width="100%"
+                            height="600px" />
+                        <a href="doc/Doc_journalisation.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
+                    </li>
+                    <li style="width: 30%;">
+                        <embed src="doc/Doc_NAT.PAT.pdf#toolbar=0" type="application/pdf" width="100%" height="600px" />
+                        <a href="doc/Doc_NAT.PAT.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
+                    </li>
+                    <li style="width: 30%;">
+                        <embed src="doc/Doc_pfsense.pdf#toolbar=0" type="application/pdf" width="100%" height="600px" />
+                        <a href="doc/Doc_pfsense.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
+                    </li>
+                    <li style="width: 30%;">
+                        <embed src="doc/Intrusion_machine_firstblood.pdf#toolbar=0" type="application/pdf" width="100%"
+                            height="600px" />
+                        <a href="doc/Intrusion_machine_firstblood.pdf#toolbar=0"
+                            target="_blank"><button>Consulter</button></a>
+                    </li>
+                </ul>
+            </section>
 
         </section>
-        <div class="lama">
-            <section id="a-propos">
-                <h2>Veille technologique</h2>
-                <p>Pour effectuer ma veille technologique, je consulte de manière journalière tous les forums, sites d’actualités technologiques, de droits et de cybersécurité.
-
-                    Pour ce faire, j’utilise différentes sources telles que : OCDE (Organisation de Coopération et de Développement Économiques), ec.europa.eu (Commission européenne), CNIL (Commission Nationale de l’Informatique et des Libertés), ANSSI (Agence Nationale de la Sécurité des Systèmes d’Information).
-                    
-                    Mais également, j’utilise aussi CVE (Common Vulnerabilities and Exposures) qui permet de recenser les différentes failles de sécurités sur les systèmes et des outils tels que les flux RSS, les newsletters, les réseaux sociaux (CERT-FR, COMCYBER) et les lives conférences de cybersécurité.
-                    
-                    Ma veille technologique s’effectue sur la « Cybersécurité »</p>
-            </section>
+        <section id="documents">
+            <h2>Documents Certification</h2>
+            <hr>
+            <ul
+                style="display: flex; list-style: none; justify-content: space-around; flex-wrap: wrap; position: relative; gap: 20px;">
+                <li style="width: 30%;">
+                    <embed src="doc/attestation-pix.pdf#toolbar=0" type="application/pdf" width="100%" height="600px" />
+                    <a href="doc/attestation-pix.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
+                </li>
+                <li style="width: 30%;">
+                    <embed src="doc/attestationANSSI.pdf#toolbar=0" type="application/pdf" width="100%"
+                        height="600px" />
+                    <a href="doc/attestationANSSI.pdf#toolbar=0" target="_blank"><button>Consulter</button></a>
+                </li>
+            </ul>
+        </section>
         </div>
-        <div class="lama">
-            <section id="contact">
-                <h2>Contactez-nous</h2>
+        </section>
+        <section id="a-propos">
+            <h2>Veille technologique</h2>
+            <hr>
+            <p>Pour effectuer ma veille technologique, je consulte de manière journalière tous les forums, sites
+                d’actualités technologiques, de droits et de cybersécurité. <br><br>
 
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <ul class="social-icons"> 
-                        <li><a class="linkedin" href="mailto:exemple@gmail.com"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+                Pour ce faire, j’utilise différentes sources telles que : OCDE (Organisation de Coopération et de
+                Développement Économiques), ec.europa.eu (Commission européenne), CNIL (Commission Nationale de
+                l’Informatique et des Libertés), ANSSI (Agence Nationale de la Sécurité des Systèmes d’Information).
+                <br>
+
+                Mais également, j’utilise aussi CVE (Common Vulnerabilities and Exposures) qui permet de recenser
+                les différentes failles de sécurités sur les systèmes et des outils tels que les flux RSS, les
+                newsletters, les réseaux sociaux (CERT-FR, COMCYBER) et les lives conférences de cybersécurité. <br><br>
+
+                Ma veille technologique s’effectue sur la « Cybersécurité »
+            </p>
+        </section>
+        <section id="contact">
+            <h2 style="padding-top: 50px;">Contactez-nous</h2>
+            <hr>
+            <ul class="social-icons">
+                <li><a class="linkedin" href="mailto:exemple@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </section>
     </main>
 
     <!-- Site footer -->
